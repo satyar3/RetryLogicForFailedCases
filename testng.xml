@@ -1,0 +1,14 @@
+<?xml version ='1.0' encoding='UTF-8'?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Retry Failed Suite" verbose="1" >
+	
+	<listeners>
+	    <listener class-name="Analyzer.AnnotationTransformer"></listener>
+	 </listeners>    
+    <test name="Retry failed Test Cases" >    
+    <classes>
+       <class name="mytest.MyTest" />
+     </classes>  
+  </test> 
+</suite>
