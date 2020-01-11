@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class MyTest {
 	
-	//@Test(retryAnalyzer = RetryAnalyzer.class) //Without annotation transformer
+	//@Test(retryAnalyzer = RetryAnalyzer.class) //With annotation transformer
 	@Test //without annotation transformer
 	public void testcase1()
 	{
